@@ -1,0 +1,67 @@
+[global_config]
+  borderless = True
+  suppress_multiple_term_dialog = True
+  title_inactive_bg_color = "#4C566A"
+  title_inactive_fg_color = "#D8DEE9"
+  title_receive_bg_color = "#8FBCBB"
+  title_receive_fg_color = "#2E3440"
+  title_transmit_bg_color = "#88C0D0"
+  title_transmit_fg_color = "#2E3440"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = nord
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+  [[test]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = ada5886e-f611-4c4b-a4da-a8652578c1d3
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 67:33
+      size = 1533, 839
+      title = daniel@Daniel: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 764
+      ratio = 0.5
+      type = HPaned
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = Daniel
+      type = Terminal
+      uuid = ada5886e-f611-4c4b-a4da-a8652578c1d3
+    [[[terminal3]]]
+      order = 1
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 21fdbeb2-32e1-4531-8d54-c8204ded0480
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 1.0
+    cursor_color = "#aaaaaa"
+    foreground_color = "#ffffff"
+    scrollbar_position = hidden
+    show_titlebar = False
+  [[Daniel]]
+    cursor_color = "#aaaaaa"
+    show_titlebar = False
+  [[nord]]
+    background_color = "#2e3440"
+    cursor_color = "#D8DEE9"
+    foreground_color = "#d8dee9"
+    icon_bell = False
+    palette = "#3B4252:#BF616A:#A3BE8C:#EBCB8B:#81A1C1:#B48EAD:#88C0D0:#E5E9F0:#4C566A:#BF616A:#A3BE8C:#EBCB8B:#81A1C1:#B48EAD:#8F  BCBB:#ECEFF4"
+    show_titlebar = False

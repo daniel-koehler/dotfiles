@@ -1,0 +1,4 @@
+{
+# do not display conda env in prompt
+changeps1: False
+}
